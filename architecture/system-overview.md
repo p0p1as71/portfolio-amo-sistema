@@ -221,7 +221,7 @@ No representa infraestructura ni despliegue físico.
                 ┌───────────────────────▼───────────────────────┐
                 │                    M14                         │
                 │              Motor Operativo                   │
-                │         (CDefine marco de ejecución)          │
+                │         (Define marco de ejecución)          │
                 └───────────────┬───────────────┬───────────────┘
                                 │               │
                                 │               │
