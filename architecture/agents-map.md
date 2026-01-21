@@ -75,3 +75,5 @@ sino **calidad en la separación de responsabilidades**.
 
 > **Un buen sistema no es el que hace más cosas,  
 sino el que sabe exactamente qué no debe hacer.**
+
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio

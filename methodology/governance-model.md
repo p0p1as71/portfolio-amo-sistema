@@ -162,3 +162,5 @@ La hace sostenible.
 **Estado:** Congelado (Portfolio)  
 **Nivel:** Modelo de Gobernanza  
 **Sistema:** A.M.O.
+
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio

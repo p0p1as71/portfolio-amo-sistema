@@ -191,3 +191,5 @@ Es un ejercicio de **control de complejidad**.
 
 > **La arquitectura no impresiona.  
 > La arquitectura sostiene.**
+
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio

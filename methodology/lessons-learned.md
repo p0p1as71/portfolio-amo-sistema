@@ -156,3 +156,5 @@ El principal aprendizaje no es técnico, sino profesional:
 
 > **La IA amplifica tanto el orden como el caos.  
 > Diseñar límites es una responsabilidad, no una opción.**
+
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio
