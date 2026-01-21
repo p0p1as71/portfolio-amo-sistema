@@ -100,4 +100,4 @@ no para ser ejecutada.**
 **Estado:** Portfolio / Congelado
 
 
-Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. | R. Rubio

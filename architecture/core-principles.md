@@ -141,4 +141,4 @@ Depende de que sus principios estén:
 **Nivel:** Principios Arquitectónicos  
 **Sistema:** A.M.O.
 
-Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. | R. Rubio

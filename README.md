@@ -172,4 +172,4 @@ No es código ejecutable, sino documentación de diseño y control.
 **Este portfolio es una fotografía arquitectónica.  
 La ejecución real existe fuera de este repositorio.**
 
-Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. | R. Rubio

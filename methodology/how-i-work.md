@@ -149,4 +149,4 @@ Mi enfoque es **reducir incertidumbre**, no eliminarla.
 **Estado:** Portfolio / Congelado  
 **Sistema:** A.M.O.
 
-Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. R. Rubio
+Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. | R. Rubio
