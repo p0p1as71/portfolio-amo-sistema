@@ -5,10 +5,10 @@ Este repositorio documenta la arquitectura técnica y el modelo de gobernanza de
 ## 📌 Navegación del Portfolio
 Para entender el sistema, sigue este orden:
 
-1. **[Visión General](architecture/system-overview.md)**: El "Qué" y el "Por qué".
-2. **[Mapa de Agentes](architecture/agents-map.md)**: La jerarquía de los módulos operativos (M0 a M22).
-3. **[Metodología](methodology/prompt-engineering.md)**: Estándares de ingeniería de prompts.
-4. **[Registro de Decisiones](decisions/)**: Historial de arquitectura (ADRs).
+1. [Visión General](architecture/system-overview.md): El "Qué" y el "Por qué".
+2. [Mapa de Agentes](architecture/agents-map.md): La jerarquía de los módulos operativos (M0 a M22).
+3. [Metodología](methodology/prompt-engineering.md): Estándares de ingeniería de prompts.
+4. [Registro de Decisiones](decisions/): Historial de arquitectura (ADRs).
 
 ---
 ⚠️ **Importante**: Antes de explorar el contenido, por favor lee el [Disclaimer de Propiedad](disclaimer.md).
