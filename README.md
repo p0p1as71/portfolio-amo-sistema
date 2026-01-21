@@ -1,5 +1,5 @@
 # A.M.O. — Autonomous Management Orchestrator  
-### Arquitectura y Gobernanza para Sistemas de Agentes de IA
+### Arquitectura y Gobernanza de Sistemas de IA Multi-Agente
 
 ---
 
@@ -30,7 +30,7 @@ No se expone:
 - Integraciones reales
 - Datos sensibles o clientes
 
-El objetivo es mostrar **criterio arquitectónico**, no implementación puntual.
+El objetivo es mostrar **criterio arquitectónico y capacidad de gobierno**, no implementación puntual.
 
 ---
 
@@ -55,7 +55,7 @@ A.M.O. aborda estos problemas mediante:
 ## 🏛️ Principios Arquitectónicos Clave
 
 ### 1. Gobernanza antes que inteligencia
-La IA **no decide qué es verdad**.  
+La IA **no decide qué es verdad ni qué está permitido**.
 La verdad está definida externamente y es inmutable en tiempo de ejecución.
 
 ### 2. Separación de planos
@@ -78,7 +78,8 @@ Todo proceso debe poder ser:
 
 ## 🧠 Visión General del Sistema
 
-A.M.O. no es un agente único, sino un **ecosistema de módulos especializados**, entre los que destacan:
+A.M.O. se diseña como un **sistema distribuido por responsabilidades, no por capacidades**, 
+entre los que destacan:
 
 - **M0 — Autoridad Declarativa**  
   Define reglas, contratos y límites. No ejecuta.
@@ -142,9 +143,9 @@ El resultado es:
 Este proyecto nace como una exploración personal sobre IA y sistemas complejos y evoluciona hacia un **ejercicio real de arquitectura y gobernanza**.
 
 No parte de un perfil informático clásico, sino de:
-- análisis
-- diseño de sistemas
-- pensamiento estructural
+- análisis de sistemas complejos
+- diseño estructural
+- pensamiento arquitectónico
 
 El valor del proyecto está en **cómo se controla la complejidad**, no en la cantidad de código.
 
@@ -157,6 +158,14 @@ A.M.O. no pretende ser perfecto ni definitivo.
 Pretende demostrar algo más importante:
 
 > **Que los sistemas de IA pueden —y deben— diseñarse con el mismo rigor que cualquier sistema crítico.**
+
+---
+
+## Cómo leer este repositorio
+
+Este repositorio está estructurado como un sistema de referencia arquitectónica.
+Cada carpeta representa una capa de decisión o gobernanza del sistema A.M.O.
+No es código ejecutable, sino documentación de diseño y control.
 
 ---
 
