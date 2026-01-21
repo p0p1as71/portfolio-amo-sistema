@@ -118,11 +118,14 @@ La IA se utiliza como:
 - herramienta de razonamiento
 - asistente de análisis
 - generador controlado de contenido
+- sin capacidad de decisión final
+
 
 Nunca como:
 - fuente de verdad
 - autoridad de decisión
 - sustituto de gobernanza
+
 
 ---
 

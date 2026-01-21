@@ -202,46 +202,45 @@ El siguiente diagrama representa la **arquitectura lógica y de autoridad**
 del sistema A.M.O., mostrando relaciones, límites y flujo de control.
 
 No representa infraestructura ni despliegue físico.
+                    ┌───────────────────────────────┐
+                    │            M0                  │
+                    │    Autoridad Declarativa        │
+                    │  (Reglas · Contratos · SSOT)    │
+                    └───────────────┬───────────────┘
+                                    │
+                                    │ Define límites y reglas
+                                    │
+    ┌───────────────────────────────▼───────────────────────────────┐
+    │                        ARQUITECTURA                             │
+    │     Roles · Responsabilidades · Separación de Autoridad         │
+    └───────────────┬───────────────────────────────┬──────────────┘
+                    │                               │
+                    │ Gobierna ejecución             │ Define control
+                    │                               │
+            ┌───────▼───────────────────────┐   ┌───▼───────────────────────┐
+            │             M14                │   │            M22             │
+            │       Motor Operativo           │   │          Auditor           │
+            │ (Coordinación bajo gobernanza)  │   │ (Coherencia / Trazabilidad)│
+            └───────────────┬───────────────┘   └───────────────┬───────────┘
+                            │                                   │
+                            │ Coordina ejecución                │ Observa / Valida
+                            │                                   │
+                    ┌───────▼───────────────────────────────────▼───────────┐
+                    │                        M3                                │
+                    │            Ejecutor Transaccional                         │
+                    │        (Atomicidad / Consistencia)                        │
+                    └───────────────┬─────────────────────────────────────────┘
+                                    │
+                                    │ Ejecuta flujos
+                                    │
+                    ┌───────────────▼─────────────────────────────────────────┐
+                    │                 MODELOS DE IA                             │
+                    │      (Razonamiento bajo contexto explícito)                │
+                    │      - Sin memoria persistente                             │
+                    │      - Sin autoridad                                       │
+                    │      - Sin modificación directa de estado                  │
+                    └───────────────────────────────────────────────────────────┘
 
-                        ┌───────────────────────────────┐
-                        │            M0                  │
-                        │    Autoridad Declarativa        │
-                        │  (Reglas · Contratos · SSOT)    │
-                        └───────────────┬───────────────┘
-                                        │
-                                        │ Define límites
-                                        │
-        ┌───────────────────────────────▼───────────────────────────────┐
-        │                        ARQUITECTURA                             │
-        │     Roles · Responsabilidades · Separación de Autoridad         │
-        └───────────────────────────────┬───────────────────────────────┘
-                                        │
-                                        │ Gobierna ejecución
-                                        │
-                ┌───────────────────────▼───────────────────────┐
-                │                    M14                         │
-                │              Motor Operativo                   │
-                │         (Define marco de ejecución)          │
-                └───────────────┬───────────────┬───────────────┘
-                                │               │
-                                │               │
-                        Coordina │               │ Ejecuta flujos
-                                │               │
-                ┌───────────────▼───────────────┐   ┌───────────────▼───────────────┐
-                │              M22               │   │               M3               │
-                │            Auditor             │   │       Ejecutor Transaccional   │
-                │ (Coherencia / Trazabilidad)    │   │   (Atomicidad / Consistencia)  │
-                └───────────────┬───────────────┘   └───────────────┬───────────────┘
-                                │                                   │
-                                │ Observa / Valida                  │ Ejecuta
-                                │                                   │
-                        ┌────────▼───────────────────────────────────▼────────┐
-                        │                 MODELOS DE IA                           │
-                        │      (Razonamiento bajo contexto explícito)              │
-                        │      - Sin memoria persistente                           │
-                        │      - Sin autoridad                                     │
-                        │      - Sin modificación directa de estado                │
-                        └─────────────────────────────────────────────────────────┘
 
 
 El sistema está diseñado para que **ningún componente con capacidad de razonamiento**

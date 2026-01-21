@@ -32,7 +32,7 @@ La separación de responsabilidades es deliberada y estricta.
 |------|--------|------------|---------------|-------------|---------------|-----------|
 | M0 | Autoridad Declarativa | Declarativa | Definir reglas, contratos y jerarquías | Declarar verdad normativa | Ejecutar, procesar datos, razonar | Gobernanza |
 | M3 | Ejecutor Transaccional | Operativa | Ejecutar flujos declarados externamente | Filtrar, ordenar, orquestar pipelines técnicos | Definir reglas o decisiones | M0 + Gobernanza |
-| M14 | Motor Operativo | Operativa | Coordinar ejecución entre módulos | Despachar tareas, coordinar flujos | Definir verdad o gobernanza | M0 + M3 |
+| M14 | Motor Operativo | Operativa | Coordinar ejecución entre módulos | Despachar tareas, coordinar flujos | Definir verdad, no gobernanza | M0 + M3 |
 | M22 | Auditor | Gobernanza Técnica | Validar coherencia y bloquear desviaciones | Auditar entradas y salidas | Ejecutar lógica de negocio | Gobernanza |
 | M16 | Centinela | Operativa (Supervisión) | Vigilar salud del sistema | Monitorizar y alertar | Corregir o decidir | Gobernanza |
 | M1 | Extractor Lógico | Operativa | Normalizar datos brutos | Extraer y estructurar información | Persistir o decidir | M14 |
