@@ -151,6 +151,16 @@ El valor del proyecto está en **cómo se controla la complejidad**, no en la ca
 
 ---
 
+## Project Evolution
+
+Este proyecto no nació como una arquitectura cerrada, sino como un
+experimento de Prompt Engineering que evolucionó hacia un sistema
+gobernado de agentes de IA.
+
+📄 [Leer la evolución completa del proyecto](./project-evolution.md)
+
+---
+
 ## 📌 Nota Final
 
 A.M.O. no pretende ser perfecto ni definitivo.
