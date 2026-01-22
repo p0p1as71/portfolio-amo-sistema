@@ -109,6 +109,20 @@ Limitaciones explícitas:
 - No define verdad
 - No ejecuta
 
+---
+
+## SOPs como Activos Operativos
+
+Los SOPs del sistema A.M.O. no se almacenan en este repositorio.
+Existen como una base de datos operativa gobernada en Notion.
+
+Este repositorio documenta:
+- El modelo de SOP
+- Su ciclo de vida
+- Su ingesta
+- Su rol dentro del sistema
+
+
 La IA **razona dentro de un marco**, no lo redefine.
 
 ---
