@@ -111,7 +111,7 @@ Limitaciones explícitas:
 
 ---
 
-## SOPs como Activos Operativos
+## 5. SOPs como Activos Operativos
 
 Los SOPs del sistema A.M.O. no se almacenan en este repositorio.
 Existen como una base de datos operativa gobernada en Notion.
@@ -127,7 +127,7 @@ La IA **razona dentro de un marco**, no lo redefine.
 
 ---
 
-## 5. Mapa Simplificado de Módulos
+## 6. Mapa Simplificado de Módulos
 
 | Módulo | Naturaleza | Función |
 |------|------------|--------|
@@ -141,7 +141,7 @@ Este mapa está **blindado contra solapamientos** mediante contratos y ADRs.
 
 ---
 
-## 6. Auditoría como Mecanismo Estructural
+## 7. Auditoría como Mecanismo Estructural
 
 En A.M.O., la auditoría no es un añadido, sino una **propiedad del sistema**.
 
@@ -157,7 +157,7 @@ Esto permite:
 
 ---
 
-## 7. Evolución y Escalabilidad
+## 8. Evolución y Escalabilidad
 
 La arquitectura distingue claramente entre:
 
@@ -174,7 +174,7 @@ Esto permite escalar **sin reescribir el sistema**.
 
 ---
 
-## 8. Qué Demuestra Esta Arquitectura
+## 9. Qué Demuestra Esta Arquitectura
 
 Este diseño demuestra:
 
@@ -186,7 +186,7 @@ Este diseño demuestra:
 
 ---
 
-## 9. Alcance del Documento
+## 10. Alcance del Documento
 
 Este documento:
 - Es **explicativo**
@@ -198,7 +198,7 @@ Su función es **mostrar el diseño**, no ejecutarlo.
 
 ---
 
-## 10. Cierre
+## 11. Cierre
 
 A.M.O. no es un ejercicio de herramientas.  
 Es un ejercicio de **control de complejidad**.
