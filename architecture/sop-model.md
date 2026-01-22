@@ -152,4 +152,3 @@ no un componente de ejecución ni un artefacto cognitivo.
 ---
 
 Propiedad de A.M.O. Lab - Confidencial. Ingeniería de Sistemas Automatizados por IA. | R. Rubio
-
